@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   flat_arr = []
-  array = groceried.values 
+  array = groceries.values 
   array.each do |word|
     word.each do |words|
       flat_arr << words
